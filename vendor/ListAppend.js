@@ -67,6 +67,7 @@ function readData() {
 
 
 function showData(data) {
+	console.log(data.length);
     $("#VocList").html("");
     var str = "";
     for (var i = 0; i < data.length; i++) {
