@@ -15,7 +15,7 @@ $(function() {
         console.log("local");
         showData(VocData);
     }
-    console.log(VocData.length);
+    //console.log(VocData.length);
     if (VocData.length == 0) {
     	readData();      
         console.log("file");
