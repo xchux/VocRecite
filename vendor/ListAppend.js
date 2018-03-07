@@ -58,7 +58,7 @@ function UlControl(begin, end) {
 function readData() {
 
     $.ajax({
-        url: "https://xchux.github.io/VocRecite/data/voc_all.json",
+        url: "https://raw.githubusercontent.com/xchux/VocRecite/master/data/voc_all.json",
         dataType: "json",
         success: function(data) {
             console.log(data);
